@@ -1,0 +1,12 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Fiscal_Year__c",
+                "referenceId": "Fiscal_Year__cRef1"
+            },
+            "Name": "2016",
+            "Locked__c": false
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Fiscal_Year__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Fiscal_Year__cs.json"
+        ]
+    },
+    {
+        "sobject": "Tax_Rate__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "Tax_Rate__cs.json"
+        ]
+    }
+]
