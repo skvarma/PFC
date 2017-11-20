@@ -8,22 +8,34 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Readonly</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Locked__c</field>
+                <behavior>Required</behavior>
+                <field>Fiscal_Year__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Year__c</field>
+                <behavior>Required</behavior>
+                <field>Starting_Range__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Tax_Rate__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>OwnerId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Tax_Type__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Ending_Range__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -58,14 +70,7 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
-        <fields>Tax_Type__c</fields>
-        <fields>Starting_Range__c</fields>
-        <fields>Ending_Range__c</fields>
-        <fields>Tax_Rate__c</fields>
-        <fields>NAME</fields>
-        <relatedList>Tax_Rate__c.Fiscal_Year__c</relatedList>
-        <sortField>Tax_Type__c</sortField>
-        <sortOrder>Asc</sortOrder>
+        <relatedList>RelatedEntityHistoryList</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
@@ -73,7 +78,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1D000000EVQP</masterLabel>
+        <masterLabel>00h1D000000EVRc</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

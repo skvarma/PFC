@@ -19,6 +19,9 @@
     <layoutAssignments>
         <layout>Fiscal_Year__c-Fiscal Year Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Rate__c-Tax Rate Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -28,8 +31,17 @@
         <object>Fiscal_Year__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Tax_Rate__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <tabVisibilities>
-        <tab>Fiscal_Year__c</tab>
+        <tab>Tax_Rate__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

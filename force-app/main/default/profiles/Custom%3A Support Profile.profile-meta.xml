@@ -11,11 +11,19 @@
         <field>Fiscal_Year__c.Locked__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fiscal_Year__c.Year__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Fiscal_Year__c-Fiscal Year Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tax_Rate__c-Tax Rate Layout</layout>
+    </layoutAssignments>
     <tabVisibilities>
-        <tab>Fiscal_Year__c</tab>
+        <tab>Tax_Rate__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
