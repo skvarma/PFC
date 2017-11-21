@@ -5,6 +5,16 @@
         <visible>true</visible>
     </applicationVisibilities>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>pfc_Annual_Limit__c.RRSP_Limit_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>pfc_Annual_Limit__c.TFSA_Limit_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>pfc_Fiscal_Year__c.Locked__c</field>
         <readable>true</readable>

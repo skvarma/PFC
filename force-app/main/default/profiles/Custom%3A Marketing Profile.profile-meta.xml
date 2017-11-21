@@ -8,6 +8,16 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>pfc_Annual_Limit__c.RRSP_Limit_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>pfc_Annual_Limit__c.TFSA_Limit_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>pfc_Fiscal_Year__c.Locked__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -36,22 +46,6 @@
     <layoutAssignments>
         <layout>pfc_Tax_Rate__c-Tax Rate Layout</layout>
     </layoutAssignments>
-    <tabVisibilities>
-        <tab>pfc_Fiscal_Year__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>pfc_Income__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>pfc_Individual__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>pfc_Tax_Rate__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
