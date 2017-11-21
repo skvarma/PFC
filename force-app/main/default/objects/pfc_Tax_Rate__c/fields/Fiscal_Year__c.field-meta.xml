@@ -2,12 +2,11 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Fiscal_Year__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
-    <description>Fiscal year for Income</description>
     <externalId>false</externalId>
     <label>Fiscal Year</label>
-    <referenceTo>Fiscal_Year__c</referenceTo>
-    <relationshipLabel>Income</relationshipLabel>
-    <relationshipName>Income</relationshipName>
+    <referenceTo>pfc_Fiscal_Year__c</referenceTo>
+    <relationshipLabel>Tax Rate</relationshipLabel>
+    <relationshipName>Tax_Rate</relationshipName>
     <required>true</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

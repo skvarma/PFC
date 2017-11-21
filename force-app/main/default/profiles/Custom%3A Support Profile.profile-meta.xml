@@ -8,33 +8,48 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Fiscal_Year__c.Locked__c</field>
+        <field>pfc_Fiscal_Year__c.Locked__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Fiscal_Year__c.Year__c</field>
+        <field>pfc_Fiscal_Year__c.Year__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Individual__c.DOB__c</field>
+        <field>pfc_Individual__c.DOB__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Fiscal_Year__c-Fiscal Year Layout</layout>
+        <layout>pfc_Annual_Limit__c-Annual Limit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Income__c-Income Layout</layout>
+        <layout>pfc_Fiscal_Year__c-Fiscal Year Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Individual__c-Individual Layout</layout>
+        <layout>pfc_Income__c-Income Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Tax_Rate__c-Tax Rate Layout</layout>
+        <layout>pfc_Individual__c-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>pfc_Tax_Rate__c-Tax Rate Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
-        <tab>Income__c</tab>
+        <tab>pfc_Fiscal_Year__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pfc_Income__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pfc_Individual__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pfc_Tax_Rate__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

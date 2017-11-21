@@ -8,30 +8,33 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Fiscal_Year__c.Locked__c</field>
+        <field>pfc_Fiscal_Year__c.Locked__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Fiscal_Year__c.Year__c</field>
+        <field>pfc_Fiscal_Year__c.Year__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Individual__c.DOB__c</field>
+        <field>pfc_Individual__c.DOB__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Fiscal_Year__c-Fiscal Year Layout</layout>
+        <layout>pfc_Annual_Limit__c-Annual Limit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Income__c-Income Layout</layout>
+        <layout>pfc_Fiscal_Year__c-Fiscal Year Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Individual__c-Individual Layout</layout>
+        <layout>pfc_Income__c-Income Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Tax_Rate__c-Tax Rate Layout</layout>
+        <layout>pfc_Individual__c-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>pfc_Tax_Rate__c-Tax Rate Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -39,7 +42,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Fiscal_Year__c</object>
+        <object>pfc_Annual_Limit__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -48,7 +51,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Income__c</object>
+        <object>pfc_Fiscal_Year__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -57,7 +60,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Individual__c</object>
+        <object>pfc_Income__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -66,11 +69,32 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Tax_Rate__c</object>
+        <object>pfc_Individual__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>pfc_Tax_Rate__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>Income__c</tab>
+        <tab>pfc_Fiscal_Year__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pfc_Income__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pfc_Individual__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>pfc_Tax_Rate__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

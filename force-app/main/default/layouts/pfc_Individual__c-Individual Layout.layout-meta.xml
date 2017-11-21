@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
@@ -13,11 +12,15 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Locked__c</field>
+                <field>DOB__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Year__c</field>
+                <behavior>Required</behavior>
+                <field>Family__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Order_in_Family__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -48,34 +51,28 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>true</customLabel>
+        <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <label>Custom Links</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
-        <fields>Tax_Type__c</fields>
-        <fields>Starting_Range__c</fields>
-        <fields>Ending_Range__c</fields>
-        <fields>Tax_Rate__c</fields>
         <fields>NAME</fields>
-        <relatedList>Tax_Rate__c.Fiscal_Year__c</relatedList>
-        <sortField>Tax_Type__c</sortField>
-        <sortOrder>Asc</sortOrder>
+        <fields>Fiscal_Year__c</fields>
+        <fields>Income_Source__c</fields>
+        <fields>Income_Tax_Type__c</fields>
+        <relatedList>pfc_Income__c.Individual__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>pfc_Annual_Limit__c.Individual__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00h1D000000EVQP</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout>

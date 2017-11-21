@@ -6,17 +6,17 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Fiscal_Year__c.Locked__c</field>
+        <field>pfc_Fiscal_Year__c.Locked__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Fiscal_Year__c.Year__c</field>
+        <field>pfc_Fiscal_Year__c.Year__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Individual__c.DOB__c</field>
+        <field>pfc_Individual__c.DOB__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
@@ -27,7 +27,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Fiscal_Year__c</object>
+        <object>pfc_Annual_Limit__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -36,7 +36,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Income__c</object>
+        <object>pfc_Fiscal_Year__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -45,7 +45,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Individual__c</object>
+        <object>pfc_Income__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -54,23 +54,32 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Tax_Rate__c</object>
+        <object>pfc_Individual__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>pfc_Tax_Rate__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>Fiscal_Year__c</tab>
+        <tab>pfc_Fiscal_Year__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>Income__c</tab>
+        <tab>pfc_Income__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>Individual__c</tab>
+        <tab>pfc_Individual__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>Tax_Rate__c</tab>
+        <tab>pfc_Tax_Rate__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>

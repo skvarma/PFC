@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- RRSP Limit for the Person in the FY --></help>
+    <label><!-- RRSP Limit --></label>
+    <name>RRSP_Limit__c</name>
+</CustomFieldTranslation>

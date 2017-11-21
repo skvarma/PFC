@@ -4,7 +4,7 @@
     <description>Individual</description>
     <externalId>false</externalId>
     <label>Individual</label>
-    <referenceTo>Individual__c</referenceTo>
+    <referenceTo>pfc_Individual__c</referenceTo>
     <relationshipLabel>Income</relationshipLabel>
     <relationshipName>Income</relationshipName>
     <relationshipOrder>0</relationshipOrder>

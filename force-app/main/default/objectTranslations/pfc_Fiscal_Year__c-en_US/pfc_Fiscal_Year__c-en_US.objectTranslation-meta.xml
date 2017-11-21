@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fiscal Year</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fiscal Year</value>
+    </caseValues>
+    <layouts>
+        <layout>Fiscal Year Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter a valid Year greater than 2000 and less than 2100 --></errorMessage>
+        <name>Is_Valid_FY</name>
+    </validationRules>
+</CustomObjectTranslation>
