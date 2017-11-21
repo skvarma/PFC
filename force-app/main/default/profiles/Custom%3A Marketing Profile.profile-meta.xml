@@ -25,13 +25,16 @@
         <layout>Fiscal_Year__c-Fiscal Year Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Income__c-Income Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Individual__c-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Tax_Rate__c-Tax Rate Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
-        <tab>Individual__c</tab>
+        <tab>Income__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

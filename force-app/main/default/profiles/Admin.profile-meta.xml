@@ -25,6 +25,9 @@
         <layout>Fiscal_Year__c-Fiscal Year Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Income__c-Income Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Individual__c-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -37,6 +40,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Fiscal_Year__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Income__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -58,7 +70,7 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
-        <tab>Individual__c</tab>
+        <tab>Income__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
