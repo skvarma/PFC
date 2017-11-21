@@ -1,18 +1,18 @@
 [
     {
-        "sobject": "Fiscal_Year__c",
+        "sobject": "pfc_Fiscal_Year__c",
         "saveRefs": true,
         "resolveRefs": false,
         "files": [
-            "Fiscal_Year__cs.json"
+            "pfc_Fiscal_Year__cs.json"
         ]
     },
     {
-        "sobject": "Tax_Rate__c",
+        "sobject": "pfc_Tax_Rate__c",
         "saveRefs": false,
         "resolveRefs": true,
         "files": [
-            "Tax_Rate__cs.json"
+            "pfc_Tax_Rate__cs.json"
         ]
     }
 ]
