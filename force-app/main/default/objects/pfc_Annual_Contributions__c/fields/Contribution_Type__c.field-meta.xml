@@ -52,6 +52,11 @@
                 <default>false</default>
                 <label>Saving Short Term</label>
             </value>
+            <value>
+                <fullName>ESOP</fullName>
+                <default>false</default>
+                <label>ESOP</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

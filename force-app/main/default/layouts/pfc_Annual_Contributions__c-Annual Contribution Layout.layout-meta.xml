@@ -16,16 +16,20 @@
                 <field>Contribution_Type__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Contribution_Description__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Contribution_Amount__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Affects_RRSP_Limit__c</field>
+                <behavior>Required</behavior>
+                <field>Contribution_Source__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Affects_TFSA_Limit__c</field>
+                <behavior>Edit</behavior>
+                <field>Pre_Tax_Contribution__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -34,12 +38,16 @@
                 <field>Fiscal_Year__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>Contribution_Source__c</field>
+                <behavior>Readonly</behavior>
+                <field>Contribution_Applies_to_FY__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Contribution_Applies_to_FY__c</field>
+                <field>Affects_TFSA_Limit__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Affects_RRSP_Limit__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Tax_Contribution_Validation</fullName>
+    <active>true</active>
+    <description>Pre tax Contribution can be checked for only certainContribution Types</description>
+    <errorConditionFormula>AND(NOT(ISPICKVAL(Contribution_Type__c, 'RRSP') || ISPICKVAL(Contribution_Type__c, 'Pension') ||
+ISPICKVAL(Contribution_Type__c, 'DPSP')), Pre_Tax_Contribution__c == true)</errorConditionFormula>
+    <errorMessage>Pre Tax Contribution flag can only be set for RRSP, Pension &amp; DPSP Contributions.</errorMessage>
+</ValidationRule>

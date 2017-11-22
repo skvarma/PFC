@@ -75,6 +75,16 @@
         <fields>TFSA_Limit__c</fields>
         <relatedList>pfc_Annual_Limit__c.Individual__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Fiscal_Year__c</fields>
+        <fields>Contribution_Type__c</fields>
+        <fields>Contribution_Source__c</fields>
+        <fields>Contribution_Amount__c</fields>
+        <fields>Pre_Tax_Contribution__c</fields>
+        <fields>Contribution_Description__c</fields>
+        <relatedList>pfc_Annual_Contributions__c.Individual__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
