@@ -8,6 +8,21 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>pfc_Annual_Contributions__c.Affects_RRSP_Limit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>pfc_Annual_Contributions__c.Affects_TFSA_Limit__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>pfc_Annual_Contributions__c.Contribution_Applies_to_FY__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>pfc_Annual_Limit__c.RRSP_Limit_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -31,6 +46,9 @@
         <field>pfc_Individual__c.DOB__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>pfc_Annual_Contributions__c-Annual Contribution Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>pfc_Annual_Limit__c-Annual Limit Layout</layout>
     </layoutAssignments>
