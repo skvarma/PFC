@@ -30,12 +30,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>pfc_Annual_Limit__c.RRSP_Limit_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>pfc_Annual_Limit__c.TFSA_Limit_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
