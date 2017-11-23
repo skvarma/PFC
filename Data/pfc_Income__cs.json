@@ -6,13 +6,7 @@
                 "referenceId": "pfc_Income__cRef1"
             },
             "Amount__c": 5000,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Income_Source__c": "Bonus",
             "Income_Tax_Type__c": "Personal Income Tax Rate",
             "Individual__c": "@pfc_Individual__cRef1"
@@ -23,13 +17,7 @@
                 "referenceId": "pfc_Income__cRef2"
             },
             "Amount__c": 75000,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Income_Source__c": "Salary",
             "Income_Tax_Type__c": "Personal Income Tax Rate",
             "Individual__c": "@pfc_Individual__cRef1"
@@ -40,13 +28,7 @@
                 "referenceId": "pfc_Income__cRef3"
             },
             "Amount__c": 10000,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Income_Source__c": "Bonus",
             "Income_Tax_Type__c": "Personal Income Tax Rate",
             "Individual__c": "@pfc_Individual__cRef2"
@@ -57,13 +39,7 @@
                 "referenceId": "pfc_Income__cRef4"
             },
             "Amount__c": 110000,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Income_Source__c": "Salary",
             "Income_Tax_Type__c": "Personal Income Tax Rate",
             "Individual__c": "@pfc_Individual__cRef2"

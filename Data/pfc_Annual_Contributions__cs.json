@@ -12,14 +12,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Long Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
-            "Individual__c": "@pfc_Individual__cRef1"
+            "Fiscal_Year__c": "a02L000000AhUR8IAN"
         },
         {
             "attributes": {
@@ -34,13 +27,7 @@
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "Pension",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -56,14 +43,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Pension",
             "Pre_Tax_Contribution__c": true,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
-            "Individual__c": "@pfc_Individual__cRef1"
+            "Fiscal_Year__c": "a02L000000AhUR8IAN"
         },
         {
             "attributes": {
@@ -78,13 +58,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -99,13 +73,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Short Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -121,13 +89,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -143,13 +105,7 @@
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -164,13 +120,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "TFSA",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -186,13 +136,7 @@
             "Contribution_Source__c": "Government",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -208,13 +152,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RRSP",
             "Pre_Tax_Contribution__c": true,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -229,13 +167,7 @@
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "DPSP",
             "Pre_Tax_Contribution__c": true,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -251,13 +183,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -273,13 +199,7 @@
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -294,13 +214,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "TFSA",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -315,13 +229,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "HBP Re-Payment",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -336,13 +244,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -358,13 +260,7 @@
             "Contribution_Source__c": "Government",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -379,13 +275,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Short Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -401,13 +291,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RRSP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -422,13 +306,7 @@
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Long Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         }
     ]

@@ -7,13 +7,7 @@
             },
             "RRSP_Limit__c": 40000,
             "TFSA_Limit__c": 25000,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -23,13 +17,7 @@
             },
             "RRSP_Limit__c": 50000,
             "TFSA_Limit__c": 20000,
-            "Fiscal_Year__r": {
-                "attributes": {
-                    "type": "pfc_Fiscal_Year__c",
-                    "url": "/services/data/v41.0/sobjects/pfc_Fiscal_Year__c/a001D000000wEoPQAU"
-                },
-                "Id": "a001D000000wEoPQAU"
-            },
+            "Fiscal_Year__c": "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         }
     ]
