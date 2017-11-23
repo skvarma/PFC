@@ -6,6 +6,31 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>false</editable>
+        <field>pfc_Annual_Contributions__c.Affects_RRSP_Limit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>pfc_Annual_Contributions__c.Affects_TFSA_Limit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>pfc_Annual_Contributions__c.Contribution_Applies_to_FY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>pfc_Annual_Contributions__c.Contribution_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>pfc_Annual_Contributions__c.Pre_Tax_Contribution__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>pfc_Annual_Limit__c.RRSP_Limit_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -31,6 +56,15 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Personal Financial Cloud</label>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>pfc_Annual_Contributions__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
