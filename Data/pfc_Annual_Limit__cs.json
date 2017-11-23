@@ -7,7 +7,7 @@
             },
             "RRSP_Limit__c": 40000,
             "TFSA_Limit__c": 25000,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -17,7 +17,7 @@
             },
             "RRSP_Limit__c": 50000,
             "TFSA_Limit__c": 20000,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         }
     ]

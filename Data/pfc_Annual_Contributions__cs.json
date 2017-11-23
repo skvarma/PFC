@@ -5,29 +5,24 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef1"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 4000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Long Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN"
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
+            "Individual__c": "@pfc_Individual__cRef1"
         },
         {
             "attributes": {
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef2"
             },
-            "Affects_RRSP_Limit__c": true,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 6000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "Pension (Comapny)",
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "Pension",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -35,30 +30,25 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef3"
             },
-            "Affects_RRSP_Limit__c": true,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 5000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "Pension (Self)",
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Pension",
             "Pre_Tax_Contribution__c": true,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN"
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
+            "Individual__c": "@pfc_Individual__cRef1"
         },
         {
             "attributes": {
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef4"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 2600,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "RESP (Self)",
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -66,14 +56,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef5"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 10000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Short Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -81,15 +68,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef6"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 4000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "ESOP (Personal)",
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -97,15 +81,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef7"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 2000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "ESOP (Company)",
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -113,14 +94,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef8"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": true,
             "Contribution_Amount__c": 1000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "TFSA",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -128,15 +106,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef9"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 500,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "RESP (Govt)",
             "Contribution_Source__c": "Government",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef1"
         },
         {
@@ -144,15 +119,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef10"
             },
-            "Affects_RRSP_Limit__c": true,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 5000,
-            "Contribution_Applies_to_FY__c": 2017,
             "Contribution_Description__c": "RRSP - Company Plan",
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RRSP",
             "Pre_Tax_Contribution__c": true,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -160,14 +132,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef11"
             },
-            "Affects_RRSP_Limit__c": true,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 8000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "DPSP",
             "Pre_Tax_Contribution__c": true,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -175,15 +144,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef12"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 2000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "ESOP - Personal",
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -191,15 +157,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef13"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 1000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "ESOP - Company",
             "Contribution_Source__c": "Company",
             "Contribution_Type__c": "ESOP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -207,14 +170,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef14"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": true,
             "Contribution_Amount__c": 200,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "TFSA",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -222,14 +182,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef15"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 1500,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "HBP Re-Payment",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -237,14 +194,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef16"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 2600,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -252,15 +206,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef17"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 500,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Description__c": "RESp - Govt Grant",
             "Contribution_Source__c": "Government",
             "Contribution_Type__c": "RESP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -268,14 +219,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef18"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 10000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Short Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -283,15 +231,12 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef19"
             },
-            "Affects_RRSP_Limit__c": true,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 6000,
-            "Contribution_Applies_to_FY__c": 2017,
             "Contribution_Description__c": "RRSP - Personal",
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "RRSP",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         },
         {
@@ -299,14 +244,11 @@
                 "type": "pfc_Annual_Contributions__c",
                 "referenceId": "pfc_Annual_Contributions__cRef20"
             },
-            "Affects_RRSP_Limit__c": false,
-            "Affects_TFSA_Limit__c": false,
             "Contribution_Amount__c": 10000,
-            "Contribution_Applies_to_FY__c": 2016,
             "Contribution_Source__c": "Self",
             "Contribution_Type__c": "Saving Long Term",
             "Pre_Tax_Contribution__c": false,
-            "Fiscal_Year__c": "a02L000000AhUR8IAN",
+            "Fiscal_Year__c" : "a02L000000AhUR8IAN",
             "Individual__c": "@pfc_Individual__cRef2"
         }
     ]
