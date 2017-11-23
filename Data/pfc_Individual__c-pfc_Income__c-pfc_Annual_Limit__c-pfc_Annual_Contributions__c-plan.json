@@ -1,0 +1,34 @@
+[
+    {
+        "sobject": "pfc_Individual__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "pfc_Individual__cs.json"
+        ]
+    },
+    {
+        "sobject": "pfc_Income__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "pfc_Income__cs.json"
+        ]
+    },
+    {
+        "sobject": "pfc_Annual_Limit__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "pfc_Annual_Limit__cs.json"
+        ]
+    },
+    {
+        "sobject": "pfc_Annual_Contributions__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "pfc_Annual_Contributions__cs.json"
+        ]
+    }
+]
