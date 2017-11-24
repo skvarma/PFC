@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "pfc_Annual_Limit__c",
+                "referenceId": "pfc_Annual_Limit__cRef1"
+            },
+            "RRSP_Limit__c": 40000,
+            "TFSA_Limit__c": 25000,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Limit__c",
+                "referenceId": "pfc_Annual_Limit__cRef2"
+            },
+            "RRSP_Limit__c": 50000,
+            "TFSA_Limit__c": 20000,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        }
+    ]
+}

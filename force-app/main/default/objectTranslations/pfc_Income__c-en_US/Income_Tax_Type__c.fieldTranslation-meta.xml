@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Income Tax Type --></label>
+    <name>Income_Tax_Type__c</name>
+    <picklistValues>
+        <masterLabel>Capital Gain Income Tax Rate</masterLabel>
+        <translation><!-- Capital Gain Income Tax Rate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Personal Income Tax Rate</masterLabel>
+        <translation><!-- Personal Income Tax Rate --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contribution_Type__c</fullName>
+    <description>Type of Contribution</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of Contribution</inlineHelpText>
+    <label>Contribution Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RRSP</fullName>
+                <default>false</default>
+                <label>RRSP</label>
+            </value>
+            <value>
+                <fullName>TFSA</fullName>
+                <default>false</default>
+                <label>TFSA</label>
+            </value>
+            <value>
+                <fullName>DPSP</fullName>
+                <default>false</default>
+                <label>DPSP</label>
+            </value>
+            <value>
+                <fullName>HBP Re-Payment</fullName>
+                <default>false</default>
+                <label>HBP Re-Payment</label>
+            </value>
+            <value>
+                <fullName>Pension</fullName>
+                <default>false</default>
+                <label>Pension</label>
+            </value>
+            <value>
+                <fullName>RESP</fullName>
+                <default>false</default>
+                <label>RESP</label>
+            </value>
+            <value>
+                <fullName>Saving Long Term</fullName>
+                <default>false</default>
+                <label>Saving Long Term</label>
+            </value>
+            <value>
+                <fullName>Saving Short Term</fullName>
+                <default>false</default>
+                <label>Saving Short Term</label>
+            </value>
+            <value>
+                <fullName>ESOP</fullName>
+                <default>false</default>
+                <label>ESOP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,5 @@
+SELECT Name, DOB__c, Family__c, Order_in_Family__c,
+        (Select  Amount__c, Income_Source__c,Income_Tax_Type__c,Fiscal_year__r.Id FROM Income__r WHERE Fiscal_Year__r.year__c = 2016),
+        (Select  RRSP_Limit__c, RRSP_Limit_Used__c, TFSA_Limit__c, TFSA_Limit_Used__c, Fiscal_year__r.Id FROM Annual_Limits__r WHERE Fiscal_Year__r.year__c = 2016),
+        (Select  Contribution_Amount__c, Contribution_Description__c, Contribution_Source__c, Contribution_Type__c, Pre_Tax_Contribution__c, Fiscal_year__r.Id FROM Annual_Contributions__r WHERE Fiscal_Year__r.year__c = 2016)
+FROM pfc_Individual__c

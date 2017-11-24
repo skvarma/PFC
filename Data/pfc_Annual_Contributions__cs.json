@@ -1,0 +1,255 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef1"
+            },
+            "Contribution_Amount__c": 4000,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "Saving Long Term",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef2"
+            },
+            "Contribution_Amount__c": 6000,
+            "Contribution_Description__c": "Pension (Comapny)",
+            "Contribution_Source__c": "Company",
+            "Contribution_Type__c": "Pension",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef3"
+            },
+            "Contribution_Amount__c": 5000,
+            "Contribution_Description__c": "Pension (Self)",
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "Pension",
+            "Pre_Tax_Contribution__c": true,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef4"
+            },
+            "Contribution_Amount__c": 2600,
+            "Contribution_Description__c": "RESP (Self)",
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "RESP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef5"
+            },
+            "Contribution_Amount__c": 10000,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "Saving Short Term",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef6"
+            },
+            "Contribution_Amount__c": 4000,
+            "Contribution_Description__c": "ESOP (Personal)",
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "ESOP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef7"
+            },
+            "Contribution_Amount__c": 2000,
+            "Contribution_Description__c": "ESOP (Company)",
+            "Contribution_Source__c": "Company",
+            "Contribution_Type__c": "ESOP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef8"
+            },
+            "Contribution_Amount__c": 1000,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "TFSA",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef9"
+            },
+            "Contribution_Amount__c": 500,
+            "Contribution_Description__c": "RESP (Govt)",
+            "Contribution_Source__c": "Government",
+            "Contribution_Type__c": "RESP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef10"
+            },
+            "Contribution_Amount__c": 5000,
+            "Contribution_Description__c": "RRSP - Company Plan",
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "RRSP",
+            "Pre_Tax_Contribution__c": true,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef11"
+            },
+            "Contribution_Amount__c": 8000,
+            "Contribution_Source__c": "Company",
+            "Contribution_Type__c": "DPSP",
+            "Pre_Tax_Contribution__c": true,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef12"
+            },
+            "Contribution_Amount__c": 2000,
+            "Contribution_Description__c": "ESOP - Personal",
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "ESOP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef13"
+            },
+            "Contribution_Amount__c": 1000,
+            "Contribution_Description__c": "ESOP - Company",
+            "Contribution_Source__c": "Company",
+            "Contribution_Type__c": "ESOP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef14"
+            },
+            "Contribution_Amount__c": 200,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "TFSA",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef15"
+            },
+            "Contribution_Amount__c": 1500,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "HBP Re-Payment",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef16"
+            },
+            "Contribution_Amount__c": 2600,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "RESP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef17"
+            },
+            "Contribution_Amount__c": 500,
+            "Contribution_Description__c": "RESp - Govt Grant",
+            "Contribution_Source__c": "Government",
+            "Contribution_Type__c": "RESP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef18"
+            },
+            "Contribution_Amount__c": 10000,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "Saving Short Term",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef19"
+            },
+            "Contribution_Amount__c": 6000,
+            "Contribution_Description__c": "RRSP - Personal",
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "RRSP",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Annual_Contributions__c",
+                "referenceId": "pfc_Annual_Contributions__cRef20"
+            },
+            "Contribution_Amount__c": 10000,
+            "Contribution_Source__c": "Self",
+            "Contribution_Type__c": "Saving Long Term",
+            "Pre_Tax_Contribution__c": false,
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "pfc_Income__c",
+                "referenceId": "pfc_Income__cRef1"
+            },
+            "Amount__c": 5000,
+            "Income_Source__c": "Bonus",
+            "Income_Tax_Type__c": "Personal Income Tax Rate",
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Income__c",
+                "referenceId": "pfc_Income__cRef2"
+            },
+            "Amount__c": 75000,
+            "Income_Source__c": "Salary",
+            "Income_Tax_Type__c": "Personal Income Tax Rate",
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Income__c",
+                "referenceId": "pfc_Income__cRef3"
+            },
+            "Amount__c": 10000,
+            "Income_Source__c": "Bonus",
+            "Income_Tax_Type__c": "Personal Income Tax Rate",
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "pfc_Income__c",
+                "referenceId": "pfc_Income__cRef4"
+            },
+            "Amount__c": 110000,
+            "Income_Source__c": "Salary",
+            "Income_Tax_Type__c": "Personal Income Tax Rate",
+            "Fiscal_Year__c" : "a02L000000AhURNIA3",
+            "Individual__c": "@pfc_Individual__cRef2"
+        }
+    ]
+}

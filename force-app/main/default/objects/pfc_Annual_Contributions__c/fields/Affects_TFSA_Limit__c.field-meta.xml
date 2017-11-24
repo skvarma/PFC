@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Affects_TFSA_Limit__c</fullName>
+    <description>Identifies if this Contribution counts towards TFSA Limit</description>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(Contribution_Type__c , 'TFSA')</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Identifies if this Contribution counts towards TFSA Limit</inlineHelpText>
+    <label>Affects TFSA Limit?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
