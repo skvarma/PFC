@@ -1,0 +1,13 @@
+<!--
+ - Created by skvarma on 2017-11-27.
+ -->
+
+<aura:component description="FamilyMembers" controller="Family">
+    <aura:attribute name="familyName" type="String" required="true"/>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+    <aura:attribute name="familyMembers" type="pfc_Individual__c[]"/>
+
+    <aura:iteration items="{!v.familyMembers}" var="member">
+        <ui:outputText value="{!member.Name}" />
+    </aura:iteration>
+</aura:component>
