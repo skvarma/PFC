@@ -16,7 +16,7 @@
             <div class="{! 'slds-section' + (v.isExpanded ? ' slds-is-open' : '')}">
                 <h3 class="slds-section__title slds-theme_shade">
                     <button aria-controls="divContent" aria-expanded="{!v.isExpanded}" onclick="{!c.changeSectionState}" class="slds-button slds-section__title-action">
-                        <lightning:icon aura:id="articleOne" iconName="utility:switch" size="xx-small" alternativeText="switch"/>
+                        <lightning:icon aura:id="articleOne" iconName="{!v.isExpanded ? 'utility:switch' : 'utility:chevronright'}" size="xx-small" alternativeText="switch"/>
                         <span class="slds-truncate" title="Section Title">Family Members</span>
                     </button>
                 </h3>

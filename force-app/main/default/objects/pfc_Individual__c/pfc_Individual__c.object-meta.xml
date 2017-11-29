@@ -41,7 +41,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>IndividualMini</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Information about a Person</description>
     <enableActivities>false</enableActivities>
