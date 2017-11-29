@@ -18,6 +18,5 @@
     </div>
     <!-- / PAGE HEADER -->
 
-    <p>Financial Summary</p>
     <c:FamilyMembers familyName="{!v.familyName}"/>
 </aura:component>

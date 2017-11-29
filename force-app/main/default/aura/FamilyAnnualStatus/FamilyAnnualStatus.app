@@ -5,4 +5,5 @@
 <aura:application description="FamilyAnnualStatus" extends="force:slds">
 
     <c:FinancialSummary familyName="Doe" fiscalYear="2016"/>
+
 </aura:application>

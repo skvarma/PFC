@@ -17,4 +17,8 @@
         });
         $A.enqueueAction(action);
     },
+
+    changeSectionState : function changeSectionState(component){
+         component.set('v.isExpanded',!component.get('v.isExpanded'));
+    },
 })

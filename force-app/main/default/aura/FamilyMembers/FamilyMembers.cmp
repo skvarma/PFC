@@ -4,10 +4,26 @@
 
 <aura:component description="FamilyMembers" controller="Family">
     <aura:attribute name="familyName" type="String" required="true"/>
-    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     <aura:attribute name="familyMembers" type="pfc_Individual__c[]"/>
+    <aura:attribute name="isExpanded" type="Boolean" default="true"/>
 
-    <aura:iteration items="{!v.familyMembers}" var="member">
-        <ui:outputText value="{!member.Name}" />
-    </aura:iteration>
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+<div class="slds-grid">
+    <div class="slds-col">
+        <div class="{! 'slds-section' + (v.isExpanded ? ' slds-is-open' : '')}">
+            <h3 class="slds-section__title slds-theme_shade">
+                <button aria-controls="divContent" aria-expanded="{!v.isExpanded}" onclick="{!c.changeSectionState}" class="slds-button slds-section__title-action">
+                    <lightning:icon aura:id="articleOne" iconName="utility:switch" size="xx-small" alternativeText="switch"/>
+                    <span class="slds-truncate" title="Section Title">Family Members</span>
+                </button>
+            </h3>
+            <div class="slds-section__content" aria-hidden="{!!v.isExpanded}" id="divContent">
+                <aura:iteration items="{!v.familyMembers}" var="member">
+                    <p class="slds-text-body--regular"><ui:outputText value="{!member.Name}" /></p>
+                </aura:iteration>
+            </div>
+        </div>
+    </div>
+</div>
+
 </aura:component>
