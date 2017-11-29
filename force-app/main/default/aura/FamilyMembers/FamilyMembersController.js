@@ -21,4 +21,14 @@
     changeSectionState : function changeSectionState(component){
          component.set('v.isExpanded',!component.get('v.isExpanded'));
     },
+
+    handleClick: function (component, event, helper) {
+            var recId = event.target.id;
+            alert(recId);
+            var navEvt = $A.get("e.force:navigateToURL");
+            navEvt.setParams({
+                "url": "/"+recId
+            });
+            navEvt.fire();
+    },
 })

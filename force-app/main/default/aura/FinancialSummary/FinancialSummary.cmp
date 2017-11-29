@@ -18,5 +18,5 @@
     </div>
     <!-- / PAGE HEADER -->
 
-    <c:FamilyMembers familyName="{!v.familyName}"/>
+    <c:FamilyMembers familyName="{!v.familyName}" isExpanded="false"/>
 </aura:component>
