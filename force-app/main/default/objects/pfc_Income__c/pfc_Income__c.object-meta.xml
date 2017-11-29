@@ -41,7 +41,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Income_Mini</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Custom Object to Track Income for a person per Financial year.</description>
     <enableActivities>false</enableActivities>
