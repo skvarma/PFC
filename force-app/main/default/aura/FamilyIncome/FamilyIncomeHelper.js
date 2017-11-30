@@ -22,6 +22,6 @@
     setDisplayColumns: function(component){
         component.set('v.displayCols',[{label: 'Individual Name', fieldName: 'Individual_Name__c', type: 'text'},
                                        {label: 'Income Source', fieldName: 'Income_Source__c', type: 'text'},
-                                       {label: 'Amount', fieldName: 'Amount__c', type: 'currency'}]);
+                                       {label: 'Amount', fieldName: 'Amount__c', type: 'currency', typeAttributes: { currencyCode: 'CAD' }}]);
     },
 })
