@@ -20,5 +20,5 @@
 
     <c:FamilyMembers familyName="{!v.familyName}" isExpanded="false"/>
     <c:FamilyIncome familyName="{!v.familyName}" fiscalYear="{!v.fiscalYear}" isExpanded="false" />
-
+    <c:AnnualContributions familyName="{!v.familyName}" fiscalYear="{!v.fiscalYear}" />
 </aura:component>
