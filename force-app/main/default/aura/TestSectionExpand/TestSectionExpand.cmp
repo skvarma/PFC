@@ -1,0 +1,17 @@
+<!--
+ - Created by skvarma on 2017-11-28.
+ -->
+
+<aura:component description="TestSectionExpand">
+    <aura:attribute name="isexpanded" type="Boolean" default="true"/>
+    <div class="{! 'slds-section' + (v.isexpanded ? ' slds-is-open' : '')}">
+        <h3 class="slds-section__title slds-theme_shade">
+            <button aria-controls="divContent" aria-expanded="{!v.isexpanded}" onclick="{!c.changeState}" class="slds-button slds-section__title-action">
+                <lightning:icon aura:id="articleOne" iconName="utility:switch" size="xx-small" alternativeText="switch"/>
+                <span class="slds-truncate" title="Section Title">Ponto de Venda</span>
+            </button>
+        </h3>
+        <div class="slds-section__content" aria-hidden="{!!v.isexpanded}" id="divContent">
+           <p> Test  ABCD </p>
+        </div> </div>
+</aura:component>

@@ -1,0 +1,24 @@
+<!--
+ - Created by skvarma on 2017-11-27.
+ -->
+
+<aura:component description="FinancialSummary">
+
+    <aura:attribute name="familyName" type="String" required="true"/>
+    <aura:attribute name="fiscalYear" type="Integer" required="true"/>
+
+    <!-- PAGE HEADER -->
+    <div class="slds-page-header" role="banner">
+        <div class="slds-grid">
+            <div class="slds-col">
+                <p class="slds-text-heading--label">Annual Financial Summary</p>
+                <h1 class="slds-text-heading--medium">{!v.fiscalYear} Financial Summary for the {!v.familyName} family</h1>
+            </div>
+        </div>
+    </div>
+    <!-- / PAGE HEADER -->
+
+    <c:FamilyMembers familyName="{!v.familyName}" isExpanded="false"/>
+    <c:FamilyIncome familyName="{!v.familyName}" fiscalYear="{!v.fiscalYear}" isExpanded="false" />
+
+</aura:component>

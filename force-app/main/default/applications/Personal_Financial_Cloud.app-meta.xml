@@ -6,7 +6,10 @@
     <formFactors>Large</formFactors>
     <label>Personal Financial Cloud</label>
     <navType>Standard</navType>
-    <tab>Fiscal_Year__c</tab>
+    <tab>pfc_Fiscal_Year__c</tab>
+    <tab>pfc_Income__c</tab>
+    <tab>pfc_Individual__c</tab>
+    <tab>pfc_Tax_Rate__c</tab>
     <uiType>Lightning</uiType>
     <utilityBar>Personal_Financial_Cloud_UtilityBar</utilityBar>
 </CustomApplication>

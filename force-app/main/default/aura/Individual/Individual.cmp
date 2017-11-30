@@ -1,0 +1,13 @@
+<!--
+ - Created by skvarma on 2017-11-28.
+ -->
+
+<aura:component description="Individual">
+    <aura:attribute name="individual" type="pfc_Individual__c" required="true"/>
+
+    <div class="slds-card" >
+        <section class="slds-card__body">
+
+        </section>
+    </div>
+</aura:component>

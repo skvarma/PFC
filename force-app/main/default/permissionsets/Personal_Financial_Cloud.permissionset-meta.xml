@@ -51,6 +51,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>pfc_Income__c.Individual_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>pfc_Individual__c.DOB__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -1,0 +1,35 @@
+<!--
+ - Created by skvarma on 2017-11-29.
+ -->
+
+<aura:component description="FamilyIncome" controller="Income">
+    <aura:attribute name="familyName" type="String" required="true"/>
+    <aura:attribute name="fiscalYear" type="Integer" required="true"/>
+    <aura:attribute name="familyIncome" type="pfc_Income__c[]"/>
+    <aura:attribute name="summaryFamilyIncome" type="Decimal"/>
+    <aura:attribute name="isExpanded" type="Boolean" default="true"/>
+    <aura:attribute name="displayCols" type="List"/>
+
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
+    <div class="slds-grid">
+        <div class="slds-col">
+            <div class="{! 'slds-section' + (v.isExpanded ? ' slds-is-open' : '')}">
+                <h3 class="slds-section__title slds-theme_shade">
+                    <button aria-controls="divContent" aria-expanded="{!v.isExpanded}" onclick="{!c.changeSectionState}" class="slds-button slds-section__title-action">
+                        <lightning:icon aura:id="articleOne" iconName="{!v.isExpanded ? 'utility:switch' : 'utility:chevronright'}" size="xx-small" alternativeText="switch"/>
+                        <span class="slds-truncate" title="Section Title">Family Income <ui:outputCurrency aura:id="summaryIncome" value="{!v.summaryFamilyIncome}"/></span>
+                    </button>
+                </h3>
+                <div class="slds-section__content" aria-hidden="{!!v.isExpanded}" id="divContent">
+                    <!--<aura:iteration items="{!v.familyIncome}" var="member">-->
+                        <!--&lt;!&ndash;<p class="slds-text-body&#45;&#45;regular"><ui:outputText value="{!member.Name}" /></p>&ndash;&gt;-->
+                        <!--<p><force:recordView recordId="{!member.Id}" type="MINI"/></p>-->
+                    <!--</aura:iteration>-->
+                    <lightning:datatable data="{! v.familyIncome }" columns="{! v.displayCols }" keyField="id"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</aura:component>

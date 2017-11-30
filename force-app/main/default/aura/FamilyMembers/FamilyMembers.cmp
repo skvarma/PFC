@@ -1,0 +1,64 @@
+<!--
+ - Created by skvarma on 2017-11-27.
+ -->
+
+<aura:component description="FamilyMembers" controller="Family">
+    <aura:attribute name="familyName" type="String" required="true"/>
+    <aura:attribute name="familyMembers" type="pfc_Individual__c[]"/>
+    <aura:attribute name="isExpanded" type="Boolean" default="true"/>
+
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
+    <aura:dependency resource="markup://force:navigateToURL" type="EVENT"/>
+
+    <div class="slds-grid">
+        <div class="slds-col">
+            <div class="{! 'slds-section' + (v.isExpanded ? ' slds-is-open' : '')}">
+                <h3 class="slds-section__title slds-theme_shade">
+                    <button aria-controls="divContent" aria-expanded="{!v.isExpanded}" onclick="{!c.changeSectionState}" class="slds-button slds-section__title-action">
+                        <lightning:icon aura:id="articleOne" iconName="{!v.isExpanded ? 'utility:switch' : 'utility:chevronright'}" size="xx-small" alternativeText="switch"/>
+                        <span class="slds-truncate" title="Section Title">Family Members</span>
+                    </button>
+                </h3>
+                <div class="slds-section__content" aria-hidden="{!!v.isExpanded}" id="divContent">
+                    <!--<table class="slds-table slds-table_cell-buffer">-->
+                        <!--<thead>-->
+                        <!--<tr class="slds-text-title_caps">-->
+                            <!--<th scope="col">-->
+                                <!--<div class="slds-truncate" title="Name">Name</div>-->
+                            <!--</th>-->
+                            <!--<th scope="col">-->
+                                <!--<div class="slds-truncate" title="DOB">DOB</div>-->
+                            <!--</th>-->
+                            <!--<th scope="col">-->
+                                <!--<div class="slds-truncate" title="Order">Order</div>-->
+                            <!--</th>-->
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody>-->
+                        <!--<aura:iteration items="{!v.familyMembers}" var="member">-->
+                            <!--<tr>-->
+                                <!--<th scope="row" data-label="Individual Name">-->
+                                    <!--<div class="slds-truncate" title="{!member.Name}"><a onclick="{!c.handleClick}" id="{!member.Id}">{!member.Name}</a></div>-->
+                                <!--</th>-->
+                                <!--<td data-label="DOB">-->
+                                    <!--<div class="slds-truncate" title="{!member.DOB__c}">{!member.DOB__c}</div>-->
+                                <!--</td>-->
+                                <!--<td data-label="Order">-->
+                                    <!--<div class="slds-truncate" title="{!member.Order_in_Family__c}">{!member.Order_in_Family__c}</div>-->
+                                <!--</td>-->
+                            <!--</tr>-->
+                        <!--</aura:iteration>-->
+                        <!--</tbody>-->
+                    <!--</table>-->
+                    <aura:iteration items="{!v.familyMembers}" var="member">
+                        <!--<p class="slds-text-body&#45;&#45;regular"><ui:outputText value="{!member.Name}" /></p>-->
+                        <p><force:recordView recordId="{!member.Id}" type="MINI"/></p>
+                    </aura:iteration>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</aura:component>
