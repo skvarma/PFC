@@ -24,4 +24,15 @@
                                        {label: 'Income Source', fieldName: 'Income_Source__c', type: 'text'},
                                        {label: 'Amount', fieldName: 'Amount__c', type: 'currency', typeAttributes: { currencyCode: 'CAD' }}]);
     },
+
+    calcSummaryIncome2: function(component){
+
+                    var summIncome=0;
+                    var famIncome = component.get("v.familyIncome");
+                    for(var inc in famIncome){
+                        summIncome = summIncome + famIncome[inc].Amount__c;
+                    }
+
+                    component.set("v.summaryFamilyIncome",summIncome);
+        },
 })

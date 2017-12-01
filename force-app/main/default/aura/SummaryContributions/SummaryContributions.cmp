@@ -1,0 +1,11 @@
+<!--
+ - Created by skvarma on 2017-11-30.
+ -->
+
+<aura:component description="SummaryContributions">
+    <aura:attribute name="familyName" type="String" required="true"/>
+    <aura:attribute name="fiscalYear" type="Integer" required="true"/>
+    <aura:attribute name="annualContributions" type="pfc_Annual_Contributions__c[]"/>
+    <aura:attribute name="annualLimits" type="pfc_Annual_Limit__c[]"/>
+    <aura:attribute name="familyMembers" type="pfc_Individual__c[]"/>
+</aura:component>

@@ -44,19 +44,18 @@ public with sharing class Contribution {
         ];
     }
 
-
-//    @AuraEnabled
-//    public static Map<Id, pfc_Individual__c> getFamilyMembers(String familyName){
-//        Map<Id,pfc_Individual__c> familyMap = new Map<Id, pfc_Individual__c>();
-//        familyMap = [SELECT
-//                Id,
-//                DOB__c,
-//                Family__c,
-//                Name,
-//                Order_in_Family__c
-//        FROM pfc_Individual__c];
-//
-//        return familyMap;
-//    }
+    @AuraEnabled
+    public static List<pfc_Individual__c> getFamilyMembers(String familyName){
+        return [
+                SELECT
+                        DOB__c,
+                        Family__c,
+                        Id,
+                        Name,
+                        Order_in_Family__c
+                FROM pfc_Individual__c
+                WHERE Family__c = :familyName
+                ORDER BY Order_in_Family__c asc];
+    }
 
 }

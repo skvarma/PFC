@@ -14,7 +14,7 @@
                 var state = response.getState();
                 if (state == "SUCCESS"){
                     component.set("v.familyIncome",response.getReturnValue());
-                    helper.calcSummaryIncome(component);
+                    helper.calcSummaryIncome2(component);
                 }
                 else {
                     console.log('Problem getting Family Income, response state: ' + state);

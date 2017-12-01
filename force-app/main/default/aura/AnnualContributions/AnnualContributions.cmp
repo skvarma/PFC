@@ -7,19 +7,26 @@
     <aura:attribute name="fiscalYear" type="Integer" required="true"/>
     <aura:attribute name="annualContributions" type="pfc_Annual_Contributions__c[]"/>
     <aura:attribute name="annualLimits" type="pfc_Annual_Limit__c[]"/>
+    <aura:attribute name="familyMembers" type="pfc_Individual__c[]"/>
 
 
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
 
-    <aura:iteration  items="{!v.annualContributions}" var="ac">
-        <p>{!ac.Contribution_Source__c}</p>
-        <p>{!ac.Contribution_Amount__c}</p>
-    </aura:iteration>
 
-     -----
 
-    <aura:iteration var="al" items="{!v.annualLimits}">
-        <p>{!al.RRSP_Limit__c}</p>
-        <p>{!al.TFSA_Limit__c}</p>
-    </aura:iteration>
+    <!--<aura:iteration  items="{!v.annualContributions}" var="ac">-->
+        <!--<p>{!ac.Contribution_Source__c}</p>-->
+        <!--<p>{!ac.Contribution_Amount__c}</p>-->
+    <!--</aura:iteration>-->
+
+
+    <!--<aura:iteration var="al" items="{!v.annualLimits}">-->
+        <!--<p>{!al.RRSP_Limit__c}</p>-->
+        <!--<p>{!al.TFSA_Limit__c}</p>-->
+    <!--</aura:iteration>-->
+
+    <!--<aura:iteration items="{!v.familyMembers}" var="member" >-->
+       <!--** {!member.Name}<br/>-->
+    <!--</aura:iteration>-->
+
 </aura:component>

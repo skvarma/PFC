@@ -13,7 +13,9 @@ public with sharing class Family {
                         Id,
                         Name,
                         Order_in_Family__c
-                FROM pfc_Individual__c ORDER BY Order_in_Family__c asc];
+                FROM pfc_Individual__c
+                WHERE Family__c = :familyName
+                ORDER BY Order_in_Family__c asc];
     }
 
 }
