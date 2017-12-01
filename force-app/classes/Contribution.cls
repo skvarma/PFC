@@ -44,11 +44,19 @@ public with sharing class Contribution {
         ];
     }
 
-    @AuraEnabled
-    public static ContributionAndLimitWrapper getSummaryAnnualContribution(String contributionType,List<pfc_Annual_Contributions__c> annualContributions, List<pfc_Annual_Limit__c> annualLimits){
-        ContributionAndLimitWrapper wrapper = new ContributionAndLimitWrapper();
 
-        return wrapper;
-    }
+//    @AuraEnabled
+//    public static Map<Id, pfc_Individual__c> getFamilyMembers(String familyName){
+//        Map<Id,pfc_Individual__c> familyMap = new Map<Id, pfc_Individual__c>();
+//        familyMap = [SELECT
+//                Id,
+//                DOB__c,
+//                Family__c,
+//                Name,
+//                Order_in_Family__c
+//        FROM pfc_Individual__c];
+//
+//        return familyMap;
+//    }
 
 }
