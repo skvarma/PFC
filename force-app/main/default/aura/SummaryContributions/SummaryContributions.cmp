@@ -14,8 +14,9 @@
                     default="{'familyName':'','totalContribution':'0.0'}"/>
     <aura:attribute name="individualSummaryLst" type="List"
                     default="[{'individualName':''}]"/>
+    <aura:attribute name="displayCols" type="List"/>
 
-    <!--<aura:handler name="init" action="{!c.calcSummary}" value="this" />-->
+    <aura:handler name="init" action="{!c.doInit}" value="this" />
     <aura:handler name="change" value="{!v.annualContributions}" action="{!c.calcSummary}"/>
     <aura:handler name="change" value="{!v.annualLimits}" action="{!c.calcSummary}"/>
     <aura:handler name="change" value="{!v.familyMembers}" action="{!c.calcSummary}"/>
@@ -39,26 +40,9 @@
                     </button>
                 </h3>
                 <div class="slds-section__content" aria-hidden="{!!v.isExpanded}" id="divContent">
-                    <!--<aura:iteration items="{!v.familyIncome}" var="member">-->
-                    <!--&lt;!&ndash;<p class="slds-text-body&#45;&#45;regular"><ui:outputText value="{!member.Name}" /></p>&ndash;&gt;-->
-                    <!--<p><force:recordView recordId="{!member.Id}" type="MINI"/></p>-->
-                    <!--</aura:iteration>-->
-                    <!--<lightning:datatable data="{! v.familyIncome }" columns="{! v.displayCols }" keyField="id"/>-->
-                    hello
+                    <lightning:datatable data="{!v.individualSummaryLst}" columns="{!v.displayCols}" keyField="Id"/>
                 </div>
             </div>
         </div>
     </div>
-
-    <aura:iteration items="{!v.individualSummaryLst}" var="indSumm" >
-        <p> Ind Summ (Name) = {!indSumm.individualName} </p>
-        <p>Ind Summary = {!indSumm.totalContribution}</p>
-        <p>Ind Limit = {!indSumm.totalContributionLimit}</p>
-        <p>Ind Remaining = {!indSumm.totalContributionLimitRemaining}</p>
-        <p>Ind Remaining = {!indSumm.contributionUsedPercent}</p>
-    </aura:iteration>
-    <p>familySummary = {!v.familySummary.totalContribution}</p>
-    <p>family name = {!v.familyName}</p>
-    <p>Limit = {!v.familySummary.totalContributionLimit}</p>
-    <p>Remaining = {!v.familySummary.totalContributionLimitRemaining}</p>
 </aura:component>

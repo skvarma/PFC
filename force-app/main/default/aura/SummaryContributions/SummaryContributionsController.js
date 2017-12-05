@@ -2,6 +2,10 @@
  * Created by skvarma on 2017-12-04.
  */
 ({
+    doInit : function(component, event, helper){
+        helper.setDisplayColumns(component);
+    },
+
     calcSummary : function(component, event, helper){
 
         var individualLst = component.get("v.familyMembers");
