@@ -5,7 +5,49 @@
 <aura:component description="SummaryContributions">
     <aura:attribute name="familyName" type="String" required="true"/>
     <aura:attribute name="fiscalYear" type="Integer" required="true"/>
-    <aura:attribute name="annualContributions" type="pfc_Annual_Contributions__c[]"/>
-    <aura:attribute name="annualLimits" type="pfc_Annual_Limit__c[]"/>
-    <aura:attribute name="familyMembers" type="pfc_Individual__c[]"/>
+    <aura:attribute name="annualContributions" type="pfc_Annual_Contributions__c[]" required="true"/>
+    <aura:attribute name="annualLimits" type="pfc_Annual_Limit__c[]" required="true"/>
+    <aura:attribute name="familyMembers" type="pfc_Individual__c[]" required="true"/>
+    <aura:attribute name="contributionType" type="String" required="true" />
+    <aura:attribute name="isExpanded" type="Boolean" default="false"/>
+    <aura:attribute name="familySummary" type="Map"
+                    default="{'familyName':'','totalContribution':'0.0'}"/>
+    <aura:attribute name="individualSummaryLst" type="SummaryContribution[]" />
+
+    <!--<aura:handler name="init" action="{!c.doInit}" value="this" />-->
+    <aura:handler action="{!c.calcSummary}" value="this" event="aura:doneWaiting"/>
+
+    <!--<aura:iteration var="contrib" items="{!v.annualContributions}">-->
+        <!--<p>Name - {!contrib.Name}</p>-->
+    <!--</aura:iteration>-->
+
+    <div class="slds-grid">
+        <div class="slds-col">
+            <div class="{! 'slds-section' + (v.isExpanded ? ' slds-is-open' : '')}">
+                <h3 class="slds-section__title slds-theme_shade">
+                    <button aria-controls="divContent" aria-expanded="{!v.isExpanded}" onclick="{!c.changeSectionState}" class="slds-button slds-section__title-action">
+                        <lightning:icon aura:id="articleOne" iconName="{!v.isExpanded ? 'utility:switch' : 'utility:chevronright'}" size="xx-small" alternativeText="switch"/>
+                        <span class="slds-truncate" title="Section Title">
+                            Family {!v.contributionType} Contribution
+                            <ui:outputCurrency aura:id="summaryContribution" value="{!v.familySummary.totalContribution}"/>
+                            <ui:outputText aura:id="percentUsed" value="{!v.familySummary.contributionUsedPercent}"/>
+                        </span>
+                    </button>
+                </h3>
+                <div class="slds-section__content" aria-hidden="{!!v.isExpanded}" id="divContent">
+                    <!--<aura:iteration items="{!v.familyIncome}" var="member">-->
+                    <!--&lt;!&ndash;<p class="slds-text-body&#45;&#45;regular"><ui:outputText value="{!member.Name}" /></p>&ndash;&gt;-->
+                    <!--<p><force:recordView recordId="{!member.Id}" type="MINI"/></p>-->
+                    <!--</aura:iteration>-->
+                    <!--<lightning:datatable data="{! v.familyIncome }" columns="{! v.displayCols }" keyField="id"/>-->
+                    hello
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p>familySummary = {!v.familySummary.totalContribution}</p>
+    <p>family name = {!v.familyName}</p>
+    <p>Limit = {!v.familySummary.totalContributionLimit}</p>
+    <p>Remaining = {!v.familySummary.totalContributionLimitRemaining}</p>
 </aura:component>
