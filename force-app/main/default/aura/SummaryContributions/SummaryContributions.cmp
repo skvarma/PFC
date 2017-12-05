@@ -12,10 +12,14 @@
     <aura:attribute name="isExpanded" type="Boolean" default="false"/>
     <aura:attribute name="familySummary" type="Map"
                     default="{'familyName':'','totalContribution':'0.0'}"/>
-    <aura:attribute name="individualSummaryLst" type="SummaryContribution[]" />
+    <aura:attribute name="individualSummaryLst" type="List"
+                    default="[{'individualName':''}]"/>
 
-    <!--<aura:handler name="init" action="{!c.doInit}" value="this" />-->
-    <aura:handler action="{!c.calcSummary}" value="this" event="aura:doneWaiting"/>
+    <!--<aura:handler name="init" action="{!c.calcSummary}" value="this" />-->
+    <aura:handler name="change" value="{!v.annualContributions}" action="{!c.calcSummary}"/>
+    <aura:handler name="change" value="{!v.annualLimits}" action="{!c.calcSummary}"/>
+    <aura:handler name="change" value="{!v.familyMembers}" action="{!c.calcSummary}"/>
+    <!--<aura:handler action="{!c.calcSummary}" value="this" event="aura:doneWaiting"/>-->
 
     <!--<aura:iteration var="contrib" items="{!v.annualContributions}">-->
         <!--<p>Name - {!contrib.Name}</p>-->

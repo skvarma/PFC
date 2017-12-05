@@ -4,22 +4,18 @@
 ({
     calcSummary : function(component, event, helper){
 
-//        var individualLst = component.get("v.familyMembers");
-//        var contributionLst = component.get("v.annualContributions");
-//        var limitsLst = component.get("v.annualLimits");
-//        var contributionType = component.get("v.contributionType");
-//        var familyName = component.get("v.familyName");
-//        var fiscalYear = component.get("v.fiscalYear");
+        var individualLst = component.get("v.familyMembers");
+        var contributionLst = component.get("v.annualContributions");
+        var limitsLst = component.get("v.annualLimits");
 
-        // Calculate Summary for Family
-        helper.calcFamilyContributionSummary(component);
+        if (individualLst.length > 0 && contributionLst.length > 0  && limitsLst.length > 0){
 
-        // Calculate Individual Summary
+            // Calculate Summary for Family
+            helper.calcFamilyContributionSummary(component);
 
-//        for(var counter in individualLst){
-//            // Calculate Individual Summary
-//            //helper.calcSummary();
-//        }
+            // Calculate Individual Summary
+            helper.calcIndividualSummary(component);
+        }
     },
 
     changeSectionState : function changeSectionState(component){
