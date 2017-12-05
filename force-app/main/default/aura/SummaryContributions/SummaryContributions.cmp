@@ -50,6 +50,13 @@
         </div>
     </div>
 
+    <aura:iteration items="{!v.individualSummaryLst}" var="indSumm" >
+        <p> Ind Summ (Name) = {!indSumm.individualName} </p>
+        <p>Ind Summary = {!indSumm.totalContribution}</p>
+        <p>Ind Limit = {!indSumm.totalContributionLimit}</p>
+        <p>Ind Remaining = {!indSumm.totalContributionLimitRemaining}</p>
+        <p>Ind Remaining = {!indSumm.contributionUsedPercent}</p>
+    </aura:iteration>
     <p>familySummary = {!v.familySummary.totalContribution}</p>
     <p>family name = {!v.familyName}</p>
     <p>Limit = {!v.familySummary.totalContributionLimit}</p>
