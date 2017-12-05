@@ -18,6 +18,24 @@
                             annualLimits="{!v.annualLimits}"
                             contributionType="RRSP"
                             familyMembers="{!v.familyMembers}"/>
+
+    <c:SummaryContributions fiscalYear="{!v.fiscalYear}" familyName="{!v.familyName}"
+                            annualContributions="{!v.annualContributions}"
+                            annualLimits="{!v.annualLimits}"
+                            contributionType="TFSA"
+                            familyMembers="{!v.familyMembers}"/>
+
+    <c:SummaryContributions fiscalYear="{!v.fiscalYear}" familyName="{!v.familyName}"
+                            annualContributions="{!v.annualContributions}"
+                            annualLimits="{!v.annualLimits}"
+                            contributionType="ESOP"
+                            familyMembers="{!v.familyMembers}"/>
+
+    <c:SummaryContributions fiscalYear="{!v.fiscalYear}" familyName="{!v.familyName}"
+                            annualContributions="{!v.annualContributions}"
+                            annualLimits="{!v.annualLimits}"
+                            contributionType="RESP"
+                            familyMembers="{!v.familyMembers}"/>
     <!--<aura:iteration  items="{!v.annualContributions}" var="ac">-->
         <!--<p>{!ac.Contribution_Source__c}</p>-->
         <!--<p>{!ac.Contribution_Amount__c}</p>-->

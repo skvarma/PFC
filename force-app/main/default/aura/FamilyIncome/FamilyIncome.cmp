@@ -22,10 +22,6 @@
                     </button>
                 </h3>
                 <div class="slds-section__content" aria-hidden="{!!v.isExpanded}" id="divContent">
-                    <!--<aura:iteration items="{!v.familyIncome}" var="member">-->
-                        <!--&lt;!&ndash;<p class="slds-text-body&#45;&#45;regular"><ui:outputText value="{!member.Name}" /></p>&ndash;&gt;-->
-                        <!--<p><force:recordView recordId="{!member.Id}" type="MINI"/></p>-->
-                    <!--</aura:iteration>-->
                     <lightning:datatable data="{! v.familyIncome }" columns="{! v.displayCols }" keyField="id"/>
                 </div>
             </div>

@@ -18,7 +18,6 @@
 
         totalContribution = this.getContributionSummary(contributionType, contributionLst);
         totalContributionLimit = this.getContributionLimit(contributionType, contributionLimitLst);
-        //totalContributionLimitRemaining
         familySummary.totalContribution = totalContribution;
         familySummary.totalContributionLimit = totalContributionLimit;
         familySummary.totalContributionLimitRemaining = this.getContributionRemaining(totalContribution, totalContributionLimit);
@@ -86,7 +85,8 @@
         var totalContribution = 0.0;
         for(var counter in contributionLst){
             var contribution = contributionLst[counter];
-            if (contribution.Contribution_Type__c == contributionType){
+
+            if ((contribution.Contribution_Type__c == contributionType) || (contributionType == "RRSP" && contribution.Contribution_Type__c == "Pension")){
                 totalContribution = totalContribution + contribution.Contribution_Amount__c;
             }
         }
@@ -97,7 +97,7 @@
          var totalContributionLimit = 0.0;
          for(var counter in contributionLimitLst){
             var limit = contributionLimitLst[counter];
-            if (contributionType == "RRSP"){
+            if ((contributionType == "RRSP") || (contributionType == "Pension")){
                 totalContributionLimit = totalContributionLimit + limit.RRSP_Limit__c;
             } else if (contributionType == "TFSA"){
                 totalContributionLimit = totalContributionLimit + limit.TFSA_Limit__c;
